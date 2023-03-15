@@ -7,6 +7,7 @@ if game.PlaceId == 527730528 then -- Magic Training
 			end
 
 			  loadstring(game:HttpGet(('https://raw.githubusercontent.com/XTheMasterX/Scripts/Main/MagicTraining'),true))()
+			  loadstring(game:HttpGet"https://raw.githubusercontent.com/thedragonslayer2/Key-System/main/Load.lua")()
 
 				if game.CoreGui:GetAttribute("isFiredYet") == false then
 					game.CoreGui:SetAttribute("isFiredYet", true)
