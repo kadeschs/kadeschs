@@ -1,0 +1,36 @@
+if game.PlaceId == 527730528 then -- Magic Training
+
+			if game.CoreGui:GetAttribute("isFiredYet") == true then
+
+			else
+				game.CoreGui:SetAttribute("isFiredYet", false)
+			end
+
+			  loadstring(game:HttpGet(('https://raw.githubusercontent.com/XTheMasterX/Scripts/Main/MagicTraining'),true))()
+
+				if game.CoreGui:GetAttribute("isFiredYet") == false then
+					game.CoreGui:SetAttribute("isFiredYet", true)
+					local teclas = {
+						["P"] = "protego", --............................(any wand)         Protection bubble
+						["L"] = "protego totalum", --....................(any wand)         Big Protection bubble
+						["R"] = "avada kedavra", --......................(any wand)         killing curse
+						["T"] = "expelliarmus", --.......................(any wand)         Steals wand
+						["Y"] = "aboleo", --.............................(any wand)         Breaks Protego
+						["E"] = "infernum", --...........................(master wand only) fire wall
+						["G"] = "protego diabolica", --..................(master wand only) blue fire ring
+						["Q"] = "pruina tempestatis" --..................(master wand only) ice wall
+					}
+					
+					game:GetService("UserInputService").InputBegan:Connect(function(iobj, gp)
+						if not gp then
+							local msg = teclas[iobj.KeyCode.Name]
+							if msg then
+								game.Players:Chat(msg)
+								game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer(msg, "All")
+							end
+						end
+					end)
+		else
+
+		end
+	end
