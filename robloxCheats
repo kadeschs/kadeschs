@@ -20,6 +20,7 @@ if game.PlaceId == 527730528 then -- Magic Training
 						["E"] = "infernum", --...........................(master wand only) fire wall
 						["G"] = "protego diabolica", --..................(master wand only) blue fire ring
 						["Q"] = "pruina tempestatis" --..................(master wand only) ice wall
+						["C"] = "crucio" --..............................(any wand) remove hitpoints
 					}
 					
 					game:GetService("UserInputService").InputBegan:Connect(function(iobj, gp)
