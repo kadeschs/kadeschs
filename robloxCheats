@@ -13,7 +13,7 @@ if game.PlaceId == 527730528 then -- Magic Training
 					game.CoreGui:SetAttribute("isFiredYet", true)
 					local teclas = {
 						["B"] = "bombarda", --...........................(any wand)         explosion
-						["L"] = "levicorpus", --.........................(any wand)         hang in air
+						["L"] = "/c levicorpus", --.........................(any wand)         hang in air
 						["R"] = "avada kedavra", --......................(any wand)         killing curse
 						["T"] = "expelliarmus", --.......................(any wand)         Steals wand
 						["Y"] = "aboleo", --.............................(any wand)         Breaks Protego
