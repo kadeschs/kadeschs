@@ -19,7 +19,7 @@ if game.PlaceId == 527730528 then -- Magic Training
 						["Y"] = "aboleo", --.............................(any wand)         Breaks Protego
 						["E"] = "infernum", --...........................(master wand only) fire wall
 						["G"] = "protego diabolica", --..................(master wand only) blue fire ring
-						["Q"] = "pruina tempestatis" --..................(master wand only) ice wall
+						["Q"] = "pruina tempestatis", --..................(master wand only) ice wall
 						["C"] = "crucio" --..............................(any wand)         remove hitpoints
 					}
 					
