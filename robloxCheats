@@ -12,8 +12,8 @@ if game.PlaceId == 527730528 then -- Magic Training
 				if game.CoreGui:GetAttribute("isFiredYet") == false then
 					game.CoreGui:SetAttribute("isFiredYet", true)
 					local teclas = {
-						["P"] = "protego", --............................(any wand)         Protection bubble
-						["L"] = "protego totalum", --....................(any wand)         Big Protection bubble
+						["B"] = "bombarda", --...........................(any wand)         explosion
+						["L"] = "levicorpus", --.........................(any wand)         hang in air
 						["R"] = "avada kedavra", --......................(any wand)         killing curse
 						["T"] = "expelliarmus", --.......................(any wand)         Steals wand
 						["Y"] = "aboleo", --.............................(any wand)         Breaks Protego
