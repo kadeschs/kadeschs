@@ -18,7 +18,7 @@ if game.PlaceId == 527730528 then -- Magic Training
 						["T"] = "expelliarmus", --.......................(any wand)         Steals wand
 						["Y"] = "aboleo", --.............................(any wand)         Breaks Protego
 						["I"] = "infernum", --...........................(master wand only) fire wall
-						["G"] = "protego diabolica", --..................(master wand only) blue fire ring
+						["G"] = "glacius", --............................(any wand)         freeze
 						["Q"] = "pruina tempestatis", --..................(master wand only) ice wall
 						["C"] = "crucio", --..............................(any wand)        remove hitpoints
 						["E"] = "ebublio" --..............................(any wand)        bubble
