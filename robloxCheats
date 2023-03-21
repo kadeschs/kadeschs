@@ -17,7 +17,7 @@ if game.PlaceId == 527730528 then -- Magic Training
 						["R"] = "avada kedavra", --......................(any wand)         killing curse
 						["T"] = "expelliarmus", --.......................(any wand)         Steals wand
 						["Y"] = "aboleo", --.............................(any wand)         Breaks Protego
-						["I"] = "Tarantallegra", --......................(any wand)         dance
+						["I"] = "tarantallegra", --......................(any wand)         dance
 						["G"] = "glacius", --............................(any wand)         freeze
 						["Q"] = "pruina tempestatis", --..................(master wand only) ice wall
 						["C"] = "crucio", --..............................(any wand)        remove hitpoints
