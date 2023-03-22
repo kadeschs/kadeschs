@@ -19,9 +19,9 @@ if game.PlaceId == 527730528 then -- Magic Training
 						["Y"] = "aboleo", --.............................(any wand)         Breaks Protego
 						["I"] = "tarantallegra", --......................(any wand)         dance
 						["G"] = "glacius", --............................(any wand)         freeze
-						["Q"] = "pruina tempestatis", --..................(master wand only) ice wall
-						["C"] = "crucio", --..............................(any wand)        remove hitpoints
-						["E"] = "ebublio" --..............................(any wand)        bubble
+						["Q"] = "confringo", --..........................(any wand)         damage fire
+						["C"] = "crucio", --.............................(any wand)         remove hitpoints
+						["E"] = "ebublio" --.............................(any wand)         bubble
 					}
 					
 					game:GetService("UserInputService").InputBegan:Connect(function(iobj, gp)
