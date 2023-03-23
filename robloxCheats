@@ -20,7 +20,7 @@ if game.PlaceId == 527730528 then -- Magic Training
 						["N"] = "tarantallegra", --......................(any wand)         dance
 						["G"] = "glacius", --............................(any wand)         freeze
 						["Q"] = "confringo", --..........................(any wand)         damage fire
-						["C"] = "crucio", --.............................(any wand)         remove hitpoints
+						["C"] = "defodio", --.............................(any wand)         remove hitpoints
 						["E"] = "ebublio" --.............................(any wand)         bubble
 					}
 					
