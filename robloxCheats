@@ -15,7 +15,7 @@ if game.PlaceId == 527730528 then -- Magic Training
 						["B"] = "bombarda", --...........................(any wand)         explosion
 						["L"] = "levicorpus", --.........................(any wand)         hang in air
 						["R"] = "avada kedavra", --......................(any wand)         killing curse
-						["U"] = "duro", --...............................(any wand)         instant kill
+						["U"] = "duro", --...............................(any wand)         stone
 						["T"] = "expelliarmus", --.......................(any wand)         Steals wand
 						["Y"] = "aboleo", --.............................(any wand)         Breaks Protego
 						["N"] = "tarantallegra", --......................(any wand)         dance
