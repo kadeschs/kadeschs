@@ -12,17 +12,17 @@ if game.PlaceId == 527730528 then -- Magic Training
 				if game.CoreGui:GetAttribute("isFiredYet") == false then
 					game.CoreGui:SetAttribute("isFiredYet", true)
 					local teclas = {
-						["B"] = "bombarda", --...........................(any wand)         explosion
-						["L"] = "levicorpus", --.........................(any wand)         hang in air
-						["R"] = "avada kedavra", --......................(any wand)         killing curse
-						["U"] = "duro", --...............................(any wand)         stone
-						["T"] = "expelliarmus", --.......................(any wand)         Steals wand
-						["Y"] = "aboleo", --.............................(any wand)         Breaks Protego
-						["N"] = "tarantallegra", --......................(any wand)         dance
-						["G"] = "glacius", --............................(any wand)         freeze
-						["Q"] = "confringo", --..........................(any wand)         damage fire
-						["C"] = "defodio", --.............................(any wand)        remove hitpoints
-						["E"] = "ebublio" --.............................(any wand)         bubble
+						["B"] = "/e dance bombarda", --...........................(any wand)         explosion
+						["L"] = "/e dance levicorpus", --.........................(any wand)         hang in air
+						["R"] = "/e dance avada kedavra", --......................(any wand)         killing curse
+						["U"] = "/e dance duro", --...............................(any wand)         stone
+						["T"] = "/e dance expelliarmus", --.......................(any wand)         Steals wand
+						["Y"] = "/e dance aboleo", --.............................(any wand)         Breaks Protego
+						["N"] = "/e dance tarantallegra", --......................(any wand)         dance
+						["G"] = "/e dance glacius", --............................(any wand)         freeze
+						["Q"] = "/e dance confringo", --..........................(any wand)         damage fire
+						["C"] = "/e dance defodio", --.............................(any wand)        remove hitpoints
+						["E"] = "/e dance ebublio" --.............................(any wand)         bubble
 					}
 					
 					game:GetService("UserInputService").InputBegan:Connect(function(iobj, gp)
